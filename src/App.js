@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-
+import Navbar from './components/Navbar/Navbar';
+import { navItems } from './helpers/helpers';
 const App = () => {
   const [movie] = useState({
     title: 'Spider Man',
@@ -14,6 +15,7 @@ const App = () => {
     <div className="main-container">
       <Header />
       <Hero movie={movie} />
+      <Navbar items={navItems} />
     </div>
   );
 };
