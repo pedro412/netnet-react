@@ -1,0 +1,25 @@
+:root {
+  --red: #d22f26;
+  --black: #000000;
+  --white: #fff;
+  --grey: #686868;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+  max-width: 500px;
+  margin: auto;
+  background-color: var(--black);
+  padding-bottom: 72px;
+  position: relative;
+}
