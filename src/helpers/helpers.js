@@ -1,50 +1,13 @@
 export const navItems = [
   {
-    link: 'google.com',
+    link: '/',
     name: 'Inicio',
-    icon: () => {
-      return (
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12 2.09961L1 12H4V21H11V15H13V21H20V12H23L12 2.09961ZM12 4.79102L18 10.1914V11V19H15V13H9V19H6V10.1914L12 4.79102Z"
-            fill="#fff"
-          />
-        </svg>
-      );
-    },
+    iconName: 'HomeIcon',
   },
   {
-    link: 'google.com',
+    link: '/proximamente',
     name: 'Próximamente',
-    icon: () => {
-      return (
-        <svg
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clipPath="url(#clip0)">
-            <path
-              d="M4 3C2.897 3 2 3.897 2 5V19C2 20.103 2.897 21 4 21H12V19H4V5H20V13.2852L22 14.4082V5C22 3.897 21.103 3 20 3H4ZM6.00195 7V9H8V7H6.00195ZM16 7V9H18V7H16ZM6 11V13H8V11H6ZM15.0859 13C14.514 13.019 14 13.492 14 14.1445V22.8555C14 23.7255 14.9132 24.2764 15.6602 23.8574L23.4199 19.502C24.1939 19.067 24.1939 17.932 23.4199 17.498L15.6602 13.1426C15.4734 13.0378 15.2766 12.9937 15.0859 13ZM6 15V17H8V15H6Z"
-              fill="#686868"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0">
-              <rect width="24" height="24" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
-      );
-    },
+    iconName: 'ComingSoonIcon',
   },
   {
     link: 'google.com',
@@ -120,3 +83,10 @@ export const moviesCarrusel = [
       'https://images-na.ssl-images-amazon.com/images/I/81LHuCYlgEL._AC_SL1200_.jpg',
   },
 ];
+
+export const movie = {
+  title: 'Spider Man',
+  moods: ['Surrealista', 'Distopico', 'Habil', 'Sinientro', 'Emocionante'],
+  img:
+    'https://raw.githubusercontent.com/kevin129412/netnet/main/icons/judeus-samson-rAomxXulMNM-unsplash.jpg',
+};
