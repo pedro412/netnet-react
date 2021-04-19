@@ -87,3 +87,36 @@ export const navItems = [
     },
   },
 ];
+
+export const moviesCarrusel = [
+  {
+    name: 'movie1',
+    imgUrl:
+      'https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IQGLPFN5WJHEBJRXFOEB4DXYZA.jpg',
+  },
+  {
+    name: 'movie2',
+    imgUrl:
+      'https://www.muycomputer.com/wp-content/uploads/2020/01/thewitcher.jpg',
+  },
+  {
+    name: 'movie3',
+    imgUrl:
+      'https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg',
+  },
+  {
+    name: 'movie4',
+    imgUrl:
+      'https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/1/e6/1e63923b-d8c4-55f4-a686-5ee77b63f059/548776f36b22f.image.jpg',
+  },
+  {
+    name: 'movie5',
+    imgUrl:
+      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/han-solo-una-historia-de-star-wars-1575448990.jpg',
+  },
+  {
+    name: 'movie6',
+    imgUrl:
+      'https://images-na.ssl-images-amazon.com/images/I/81LHuCYlgEL._AC_SL1200_.jpg',
+  },
+];

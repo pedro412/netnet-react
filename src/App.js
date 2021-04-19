@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
+import MoviesList from './components/MoviesList/Movieslist';
 import Navbar from './components/Navbar/Navbar';
-import { navItems } from './helpers/helpers';
+import { movie, moviesCarrusel, navItems } from './helpers/helpers';
+
 const App = () => {
   const [movie] = useState({
     title: 'Spider Man',
@@ -15,6 +17,10 @@ const App = () => {
     <div className="main-container">
       <Header />
       <Hero movie={movie} />
+      <MoviesList
+        movies={moviesCarrusel}
+        categoryTitle="populares en menflix"
+      />
       <Navbar items={navItems} />
     </div>
   );
